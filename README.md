@@ -1,6 +1,7 @@
 This is the official code of paper 'Vision-Language Enhancement Network Based on Decoupling-Joint Adaptation for Few-Shot Action Recognition'.
 
-(The code will be released soon.)
+## Abstract
+Learning robust and generalizable feature extractors to generate discriminative prototypes is crucial for few-shot action recognition. However, most existing methods rely on fine-tuning large pre-trained image models, easily leading to transferability and overfitting issues. In this paper, we propose a novel vision-language enhancement network based on decoupling-joint adaptation (VEDA) for few-shot action recognition, which decouples visual features into temporal and spatial branches, followed by a joint operation that integrates these two branches using an adapter-tuning paradigm. VEDA can gradually equip the model with spatio-temporal reasoning capabilities. Since relying exclusively on local frame feature matching results in inaccurate performance, we design a video-level relation module (VLR) to enhance video context awareness through global feature matching. In addition, we design a vision-language fusion module (VLF) that introduces multimodal information to alleviate the data scarcity issue. Simultaneously, we apply adapter-tuning to both visual and textual branches to enhance the generalization ability. Based on the proposed components above, our network can extract both informative and discriminative prototypes, resulting in excellent recognition performance. Experimental results on five challenging benchmarks demonstrate the effectiveness of the proposed VEDA.
 
 
 
